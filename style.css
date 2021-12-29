@@ -60,8 +60,6 @@ li {
    list-style: none;
 }
 
-
-
 .flex-container {
    display: flex;
    align-items: center;
@@ -113,33 +111,55 @@ input[type="reset"] {
    height: 30px;
 }
 
-input[value="inptBtnVALUE"],
-input[value="inptSubmitVALUE"],
-input[value="inptResetVALUE"] {
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
    width: 150px;
    height: 30px;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+   width: 17px;
+   height: 17px;
+   border: 1.5px solid gray;
+   border-radius: 25%;
+}
+
 .container {
    margin: 0;
-   padding: 25px;
+   /* padding: 25px; */
    background-color: rgb(182, 179, 187);
 }
 
 .container.buttons {
+   padding: 25px;
    background-color: rgb(198, 235, 224);
 }
 
 .container.btns {
+   padding: 25px;
    background-color: rgb(235, 214, 198);
 }
 
 .container.submit {
+   padding: 25px;
    background-color: rgb(201, 235, 198);
 }
 
 .container.reset {
+   padding: 25px;
    background-color: rgb(235, 198, 224);
+}
+
+.container.checkbox {
+   padding: 25px;
+   background-color: rgb(198, 235, 224);
+}
+
+.container.radio {
+   padding: 25px;
+   background-color: rgb(223, 198, 235);
 }
 
 .container.text {
